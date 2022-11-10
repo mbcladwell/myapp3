@@ -1,8 +1,8 @@
 ;; Controller intro definition of artanmod
 ;; Please add your license header here.
 ;; This file is generated automatically by GNU Artanis.
-(define-module (myapp pages)
-  #:use-module (myapp lib mylib)
+(define-module (myapp3 pages)
+  #:use-module (myapp3 lib mylib)
   #:use-module (ice-9 pretty-print)
   #:export(main)
   )
