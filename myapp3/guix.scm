@@ -1,4 +1,4 @@
-(define-module (gnu packages guile-xyz)
+(define-module (myapp3)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages)
   #:use-module (guix packages)
@@ -6,8 +6,7 @@
   #:use-module (guix git-download)
   #:use-module (guix build-system gnu)
   #:use-module (guix build-system guile)
-    #:use-module (gnu packages guile)
-
+  #:use-module (gnu packages guile)
   #:use-module (guix utils)
   #:use-module ((guix build utils) #:select (alist-replace))
   #:use-module (ice-9 match)
@@ -23,9 +22,9 @@
        (method git-fetch)
        (uri (git-reference
              (url "https://github.com/mbcladwell/myapp3.git")
-             (commit "d392ac71a222a049450e7158b0fcc75fc07b964a")))
+             (commit "17235bab2264bf24a246982f6ad2ad9d1133cd7e")))
        (sha256
-               (base32 "02vhyy5rajww0n0ggkry4jkr1gyqnx4kb9fb03hbdbfw86zsvxn0"))));;anchor1
+        (base32 "02vhyy5rajww0n0ggkry4jkr1gyqnx4kb9fb03hbdbfw86zsvxn0"))))
     (build-system guile-build-system)
     (native-inputs
      `(("guile" ,guile-3.0)))
