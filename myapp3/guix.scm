@@ -28,9 +28,9 @@
        (method git-fetch)
        (uri (git-reference
              (url "https://github.com/mbcladwell/myapp3.git")
-             (commit "f2610b50d452f03f1c4745c8cefb5c59c4a38b45")))
+             (commit "128wd87d48kpikjkqqisdjppcg983ihfkb4f966k8x2xq5ca1fgj")))
        (sha256
-             (base32 "03yvjbw1nhsjd99xq5xl4kgb4xjkr0abmqcjb3a0h56kq23kxd66"))))
+             (base32 "14c4jdkq1n7lflkivgcr34hjg1xm2nqy54df9gsw586lwyhlgxrk"))))
     (build-system guile-build-system)
     (native-inputs
      `(("guile" ,guile-3.0)))
