@@ -1,5 +1,5 @@
 (define-module (myapp3 pages)  
-  #:use-module (gnu packages)
+;;  #:use-module (gnu packages)
   #:use-module (myapp3 lib mylib)
   #:use-module (ice-9 pretty-print)
   #:export(main)

@@ -1,5 +1,5 @@
 (define-module (myapp3 lib mylib)
-  #:use-module (gnu packages)
+;;  #:use-module (gnu packages)
   #:use-module (srfi srfi-1)
   #:export (get-rand-file-name
 	    ))
