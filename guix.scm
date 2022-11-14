@@ -22,7 +22,7 @@
        (method git-fetch)
        (uri (git-reference
              (url "https://github.com/mbcladwell/myapp3.git")
-             (commit "36db4516bdd229bdc79f1fdab1ac2af42220ddc8")))
+             (commit "6616c7e85cb2906afc580c2ba14fb1c44d204b75")))
        (sha256
         (base32 "09ir68fx9ymgigffszs21h2r6f5n9h5fahzag1p2sn3yl0a2m98x")) ))
       
