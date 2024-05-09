@@ -1,0 +1,13 @@
+<!-- project#getall view template of lnserver
+          Please add your license header here.
+          This file is generated automatically by GNU Artanis. -->
+  
+<@include header.tpl %>
+  <a href="sessions/getall">Sessions</a>
+<table><caption><h1>All Sessions</h1></caption><tr><th></th><th>Session</th><th>Updated</th><th>Name</th><th>Group</th></tr>
+<%= body %>
+</table>
+
+
+<@include footer.tpl %>
+
