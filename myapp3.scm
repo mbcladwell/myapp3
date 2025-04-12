@@ -1,5 +1,5 @@
 (define-module (labsolns myapp3)
-  #:use-module (labsolns myapp3 lib mylib)
+;;  #:use-module (labsolns myapp3 lib mylib)
   #:use-module (ice-9 pretty-print)
   #:use-module (dbi dbi)
 
