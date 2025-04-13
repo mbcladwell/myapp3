@@ -12,7 +12,10 @@
 (define (main args)
 		(let* (
 		       (txt (cadr args) )
-		       (sql (format #f "INSERT INTO ref(pmid, journal) VALUES ('~a', 'this is a test');" txt))	
+		       (_ (pretty-print txt))
+		       (sql (format #f "INSERT INTO ref(pmid, journal) VALUES ('~a', 'this is a test');" txt))
+		       (_ (pretty-print sql))
+		       
 		       (ciccio (dbi-open "mysql" "plapan_conman_ad:welcome:plapan_conman:tcp:192.254.187.215:3306"))
 		       
 		       (dummy (dbi-query ciccio sql))
