@@ -15,6 +15,9 @@
 		       (_ (pretty-print txt))
 		       (sql (format #f "INSERT INTO ref(pmid, journal) VALUES ('~a', 'this is a test');" txt))
 		       (_ (pretty-print sql))
+		       (_ (pretty-print (format #f "working dir: ~a" (getcwd))))
+		       (_ (pretty-print (format #f "$HOME: ~a" (getenv "$HOME"))))
+		       
 		       
 		       (ciccio (dbi-open "mysql" "plapan_conman_ad:welcome:plapan_conman:tcp:192.254.187.215:3306"))
 		       
